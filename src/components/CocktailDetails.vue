@@ -10,7 +10,7 @@
 
       </div>
       <div class="cocktail__img">
-        <img class="img" :src="cocktail.strDrinkThumb" alt="Изображение коктейля" />
+        <img class="img" loading="lazy" :src="cocktail.strDrinkThumb" alt="Изображение коктейля" />
       </div>
     </div>
     <div class="cocktail__ingredients">
